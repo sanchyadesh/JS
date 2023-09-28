@@ -53,3 +53,5 @@ Here: 'a' should not come out of scope. As it is locked within scopes, but with 
 //     const element = array[i];
     
 // }
+
+
