@@ -121,11 +121,11 @@ let myArray = ["Sanchit", "SanchitOne", "SanchitTwo"]
 
 for (let i = 0; i <= 20; i++) {
     if(i === 7){
-        console.log(`${i}-> 7 Detected. Proceeding to terminate the path...!`);
+        // console.log(`${i}-> 7 Detected. Proceeding to terminate the path...!`);
         break;
        
     }
-   console.log(i); //print statement 0 to 20
+//    console.log(i); //print statement 0 to 20
 }
 
 //_____________________________________________________________________
@@ -133,11 +133,11 @@ for (let i = 0; i <= 20; i++) {
 //Example: (Using "Continue keyword")
 for (let j = 0; j <= 20; j++) {
     if(j === 7){
-        console.log(`${j}-> 7 Detected. But anyway proceeding to continue the printing path...!`);
+        // console.log(`${j}-> 7 Detected. But anyway proceeding to continue the printing path...!`);
         continue;  //Will continue to print. Even after 7 is detected.
        
     }
-   console.log(j); //print statement 0 to 20
+//    console.log(j); //print statement 0 to 20
 }
 
 //--------------------------------------------------------------------------
@@ -167,3 +167,45 @@ While loop doesn't print if the condition is false.
 Do While loop print atleast once, when the condition is false.
 
 */
+let i = 0 //Initialize
+while (i <= 10) { //COndition
+    if(i === 4){
+        // console.log(`${i} is detected. Hence, please terminate a path`);
+        break;
+    }
+    // console.log(`Value will be ${i} is ${i}`);
+    // i++
+    i++;  //INC-DEC
+    // i=i+2
+}
+
+//-------------------------------------------------------------------
+
+//Example:
+
+let myArr = ["Sanchit", "Yashavantrao", "Deshmukh"]
+let arr = 0
+while (arr < myArr.length) {
+    // console.log(`My Array using while loop: ${myArr[arr]}`);
+    arr = arr + 1
+    
+}
+//-------------------------------------------------------------------
+
+//Example:
+
+let myArrOne = ["Sanchit", "Yashavantrao", "Deshmukh"]
+let arrOne = 0
+do{
+    // console.log(`My Array using while loop: ${myArrOne[arrOne]}`);
+    arr = arr + 1
+    
+}while (arr <= myArr.length);
+
+//-------------------------------------------
+
+let Score = 1
+do{
+console.log(`Score is ${Score}`);
+Score = Score + 1
+}while (Score <= 10)
