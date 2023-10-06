@@ -7,6 +7,8 @@ Map:
 
     It doesn't hold duplicate values
     It only holds unique values
+    Map is iteratable for (forof Loop)
+    Map is not iteratable for (forIn Loop)
     
     Note: Values(both Objects and Primitive Values)
 */
@@ -34,7 +36,9 @@ for (const [key, value] of map) {
     // console.log(key,':-',value);
     // console.log(`Countries are: ${key, value}`);
     // console.log(`Countries are: ${key,':-',value}`);
-    
+
     console.log(`Countries are as follows: ${key} :- ${value}`);
 
 }
+
+//--------------------------------------------------------------------
